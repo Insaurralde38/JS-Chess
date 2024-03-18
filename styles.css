@@ -1,0 +1,102 @@
+body {
+    background-color: #103F79;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gameboard {
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+
+.square svg {
+    height: 45px;
+    width: 45px;
+    margin: 7px;
+    position: relative;
+    z-index: -9;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+.piece {
+    position: relative;
+    z-index: 9;
+}
+
+.beige {
+    background-color: beige;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.black {
+    fill: black;
+}
+
+.black path {
+    stroke: white;
+    stroke-width: 1.3rem;
+}
+
+.white {
+    fill: white;
+}
+
+.white path {
+    stroke: black;
+    stroke-width: 1.3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: #F3B229;
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 100vw;
+}
+
+.author {
+    position: relative;
+    font-weight: 700;
+}
+
+a {
+    color: #F3B229;
+    text-decoration: none;
+}
+
+.heart {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-bottom: 3px;
+}
+
+.chimp {
+    height: 1.1rem;
+    width: 1.1rem;
+    margin-bottom: 6px;
+}
